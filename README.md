@@ -43,7 +43,7 @@ Static HTML, CSS and local JavaScript. No network services and no website form d
 
 **Remote downloads, without the download.**
 
-For supported source URLs, the REDOWN Cloudflare Worker transfers files directly to the user's own Cloudflare R2 storage rather than downloading the file through their computer first. Not every website, file or transfer path is eligible for true remote transfer. Manual local uploads and browser-assisted fallbacks are distinct workflows.
+For supported remote saves, REDOWN sends files to the user's own cloud storage without downloading the file to the user's computer first. Not every website, file or transfer path is eligible for true remote transfer. Manual local uploads and browser-assisted fallbacks are distinct workflows.
 
 ## Content status
 
